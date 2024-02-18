@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# Interactive card details form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="./docs/desktop-preview.jpg">
 
-Currently, two official plugins are available:
+## About the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a solution to the [Interactive card details form](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw).
 
-## Expanding the ESLint configuration
+The main challenge is to create a form that the user will be able to fill in the inputs and see in real time the changes occurring on the images of the credit card.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Built with
 
-- Configure the top-level `parserOptions` property like this:
+The project has been built with the following technologies:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- [React](https://react.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Run the application
+
+To run the application on you machine, follow the next steps:
+
+1. Clone the repositorie
+
+   ```sh
+   git clone https://github.com/JhowBRCG/interactive-card-form.git
+   ```
+
+2. Install the dependencies
+
+   ```sh
+   npm install
+   ```
+
+3. Initialize the server
+
+   ```sh
+   npm run dev
+   ```
+
+4. Now you can see the application in real time by putting the url http://localhost:5173/ in the browser of your choice.
+
+## Author
+
+Created by [@jhowbrcg](https://github.com/JhowBRCG) - fell free to contact me!
+
+## License
+
+This project is licensed under [MIT](https://opensource.org/licenses/MIT) license.
