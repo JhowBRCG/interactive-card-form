@@ -17,9 +17,9 @@ export default {
       },
 
       backgroundImage: {
-        bgMainDesktop: "url('imgs/bg-main-desktop.png')",
-        bgMainMobile: "url('imgs/bg-main-mobile.png')",
-        cardLogo: "url('imgs/card-logo.svg')",
+        bgMainDesktop: "url('/imgs/bg-main-desktop.png')",
+        bgMainMobile: "url('/imgs/bg-main-mobile.png')",
+        cardLogo: "url('/imgs/card-logo.svg')",
       },
     },
   },
